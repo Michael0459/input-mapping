@@ -1,0 +1,107 @@
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.col{
+    margin: 2px;
+}
+label,input[type="radio"],p{
+    font-size: 20px;
+}
+h4{
+    font-weight:normal;
+    font-size: 20px;
+}
+.inp_head{
+    font-weight:lighter;
+}
+input,select{
+    background-color: rgba(237, 237, 235,0.6);
+    color: black;
+    border: 0px;
+    border-radius: 10px;
+    padding: 17px;
+    font-size: 15px;
+}
+select{
+    padding-right: 225px;
+    color: #76786f;
+}
+input[type="radio"]{
+    background-color: aquamarine;
+}
+.flex{
+    justify-items: left;
+}
+button{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin-top: 100px;
+}
+.box{
+    padding: 0;
+    margin: 0;
+    height: auto;
+    display: flex;
+    background-color:  rgba(237, 237, 235,0.6);
+}
+h3{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: larger;
+}
+.butt{
+    margin-top: 10px;
+    padding:7px 22px;
+    margin-left: 0px;
+    margin-right: 20px;
+    border: 0;
+}
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+
+}
+.left{
+    transform: translateX(-40px);
+}
+.lefter{
+    transform: translateX(-190px);
+}
+.him{
+    transform: translateX(-30px);
+}
+.brown{
+    background-color: brown;
+}
+b{
+    font-style: normal;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.green{
+    background-color: greenyellow;
+}
+.pink{
+    background-color: pink;
+}
+.plum{
+    background-color: plum;
+}
+.blue{
+    background-color: #3263c7;
+}
+.x{
+    background-color: gray;
+}
+.gold{
+    background-color: goldenrod;
+}
+.butt:hover{
+    border:2px solid black;
+  
+}
